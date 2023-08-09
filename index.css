@@ -1,0 +1,422 @@
+body{
+    height: 500vh;
+}
+article{
+    background-color:rgb(247, 247, 247);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+article div:hover{
+    color: red;
+    cursor: pointer;
+}
+.nav2{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 35px;
+    text-align: center;
+}
+.name img{
+    height: 60px;
+}
+figcaption{
+    text-align: center;
+}
+figcaption:hover{
+    color: blue;
+    cursor: pointer;
+}
+p{
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+    text-align: center;  
+}
+.mid1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: gray;
+    margin: 5px;
+    padding: 5px;
+    font-weight: 100;
+}
+h2{
+    text-align: center;
+    margin: 2px;
+    font-family: 'DM Sans', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    margin: 2px;
+    font-size: 40px;
+}
+.btn{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+}
+div button{
+    height: 35px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(51, 88, 224);
+    color: white;
+    margin-right: 20px;
+}
+div button:hover{
+    background-color:purple;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:  rgb(56, 56, 247);
+}
+section img{
+    height: 550px;
+    width: 70%;
+    padding-left : 200px;
+    margin : 30px
+}
+.mid2{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+.mid2 h2{
+    padding-top: 30px;
+    color: white;
+}
+.mid2 h1{
+    color: white;
+}
+.img2{
+    height: 600px;
+    width: 100%;
+}
+div .img2 img{
+    height: 405px;
+    width: 90%;
+    padding-left:40px ;
+}
+.mid3{
+    height: 900px;
+    background: url("https://i.ytimg.com/vi/id3lDggc0RE/maxresdefault.jpg") no-repeat center center/cover;
+    align-items: center; 
+}
+.mid3 h1{
+    color:plum;
+}
+.mid3 h2{
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+.mid3 button {
+    color:black ;
+    background-color:greenyellow;
+}
+.mid3 a{
+    text-decoration: none;
+    color:aqua;
+}
+.mid4{
+    height: 100vh;
+    width: 90%;
+    background: url("https://www.apple.com/v/iphone/home/bn/images/overview/subhero/guided_tour__c40f88on9o8y_large.jpg") no-repeat center;
+    margin-top: 2px;
+    border-radius: 50px;
+    margin-left: 75px;
+    
+}
+.mid4 div{
+    padding-top: 15%;
+    padding-right: 40%;
+    color: white;
+}
+.mid4 h3{
+    color: white;
+}
+.mid4 div button{
+    margin-left: 40%;
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+.mid4 div button:hover{
+    background-color: rgb(56, 56, 247);
+}
+.choice{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: 'DM Sans', sans-serif;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 45px 55px;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 15%;
+    text-align: center;
+    font-size: 15px;
+}
+table button{
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: rgb(83, 83, 254);
+    border: 1px solid black;
+    color: white;
+}
+table button:hover{
+    background-color: rgb(0, 132, 255);
+    cursor: pointer;
+    color: black;
+}
+.colspace{
+    border-collapse: separate;
+    border-spacing: 65px 5px;
+}
+.mid5{
+    margin-top: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+.mid5 a{
+    text-decoration: none;
+    padding-bottom: 120px;
+}
+.mid5 a:hover{
+    text-decoration: underline;
+    color: rgb(0, 51, 255);;
+}
+.ways{
+    font-family: 'DM Sans', sans-serif;
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    
+    background-color:rgb(247, 247, 247); 
+}
+.ways h1{
+    font-size: 70px;
+    padding-top: 40px;
+   
+}
+.compmob1{ 
+    margin: 0;
+    height: 700px;
+    background: url("https://www.apple.com/v/iphone/home/bn/images/overview/retail/trade_in__elbczdpbk06e_large.png") no-repeat center ;
+    text-align: center;
+}
+
+.compmob1 h1{
+    padding-top: 30px;
+    font-size: 40px;
+}
+.compmob1 h3{
+    color: black;
+    font-size: 20px;
+}
+.compmob1 a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.compmob1 a:hover{
+    text-decoration: underline;
+    color: rgb(31, 112, 232);
+}
+.compmob2{
+    margin: 0%;
+    text-align: center;
+    
+    height: 570px;
+    background: url("https://www.apple.com/v/iphone/home/bn/images/overview/retail/why_apple__ezn1ktvka6oi_large.jpg") no-repeat center;
+}
+.compmob2 h1{
+    padding-top: 120px;
+    font-size: 40px;
+}
+.compmob2 h3{
+    color: black;
+    font-size: 20px;
+}
+.compmob2 a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.compmob2 a:hover{
+    text-decoration: underline;
+    color: rgb(31, 112, 232);
+}
+.makes{
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    height: 150px;
+    padding-top: 40px;
+    font-size: 60px;
+    background-color: rgb(247, 247, 247); 
+}
+.mid6{
+    height: 600px;
+    background: url("https://www.apple.com/in/iphone/home/images/overview/why-iphone/ios16__b66zg2a3322q_large.jpg") no-repeat  center;
+    text-align: center;  
+}
+
+.mid6 h3{
+    font-size: 20px;
+    color: black;
+}
+.mid6 h1{
+    font-size: 50px;
+}
+.mid6 a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.mid6 a:hover{
+    text-decoration: underline;
+    color: rgb(31, 112, 232);
+
+}
+
+.featured{
+    height: 200px;
+    background-color:rgb(247, 247, 247) ;
+}
+.featured h1{
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.mid7{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 550px;  
+}
+.mid7 h1{
+    font-size: 60px;
+   text-align: center;
+   color: black;
+}
+.mid7 h3{
+    color: black;
+    font-size: 30px;
+}
+.mid7 a{
+    padding-left: 45px;
+    font-size: 30px;
+}
+.magic{
+    height: 700px;
+    width: 100%;
+    background: url("https://www.apple.com/v/iphone/home/bn/images/overview/accessories/airpods-pro-fall-22/airpods__eb24cvhoe26a_medium_2x.jpg") no-repeat center ;
+    text-align: center;
+    padding-top: 30px;
+}
+.magic h1{
+    font-size: 50px;
+}
+.magic h3{
+    color: black;
+    font-size: 20px;
+}
+.magic a{
+    font-size: 30px;
+}
+
+.shop a{
+    padding-top: 50px;
+    font-size: 35px;
+    background-color:rgb(247, 247, 247); 
+}
+.shopping{
+    padding-top: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+.shopping h4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+}
+.shopping span{
+    font-size: 20px;
+}
+.shopping a{
+    font-size: 20px;
+}
+/* .switch .simple{
+    height: 490px;
+    width: 500px;
+    text-align: center;
+} */
+div.footer-welcome  li{
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 50px;
+    display: inline; 
+    margin-right: 10px;
+  }
+  .para2 ul li{
+    
+    list-style:decimal;
+  }
+  .para2{
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+.footer-ul {
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-ul ul {
+    list-style: none;
+}
+.footer-ul ul li {
+    margin: 7px 0;
+}
+.footer-ul ul li h4 {
+    color: #34495e;
+    font-size: 1.5rem;
+}
+.footer-ul ul li a {
+    color: #7f8c8d;
+    font-size: 1rem;
+  }
+  .footer-ul ul li a:hover {
+    text-decoration: underline; 
+  }
+  @media screen and (max-width:800px) {
+    *{
+        width: 80%;
+        padding: 0;
+    }
+  }
